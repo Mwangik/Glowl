@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Glowl</title>
     <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
@@ -20,6 +24,96 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Glowl</a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarcollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarcollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a href="about.html" class="nav-link">About us</a>
+            </li>
+            <li class="nav-item ">
+              <a href="services.html" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item ">
+              <a href="blog.html" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item ">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- showcase carousel -->
+    <section id="showcase">
+      <div id="mycarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#mycarousel" data-slide-to="0"></li>
+          <li data-target="#mycarousel" data-slide-to="1"></li>
+          <li data-target="#mycarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-image-1 active">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                <h1 class="display-3">Join us</h1>
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo
+                  incidunt sit veniam provident possimus nisi exercitationem
+                  laboriosam repellat laborum quos?
+                </p>
+                <a href="#" class="btn btn-danger btn-lg">Sign up now</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-image-2 ">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block mb-5">
+                <h1 class="display-3">Taking care of you</h1>
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo
+                  incidunt sit veniam provident possimus nisi exercitationem
+                  laboriosam repellat laborum quos?
+                </p>
+                <a href="#" class="btn btn-primary btn-lg">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-image-3 ">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                <h1 class="display-3">We always deliver.</h1>
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo
+                  incidunt sit veniam provident possimus nisi exercitationem
+                  laboriosam repellat laborum quos?
+                </p>
+                <a href="#" class="btn btn-success btn-lg">Do more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#mycarousel" data-slide="prev" class="carousel-control-prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#mycarousel" data-slide="next" class="carousel-control-next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
     <script
       src="http://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
